@@ -11,6 +11,10 @@ namespace MessageMQCommon.MQ.Names
         {
             public static readonly string AddOrderQueue = "add-order-queue";
             public static readonly string AddOrderResultQueue = "add-order-result-queue";
+        }  
+        public static class PurchaseQueue
+        {
+            public static readonly string PurchaseCreatedQueue = "purchase-created-queue";
         }   
     }
 }
