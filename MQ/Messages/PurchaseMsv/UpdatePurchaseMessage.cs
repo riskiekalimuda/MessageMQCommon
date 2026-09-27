@@ -19,23 +19,8 @@ namespace MessageMQCommon.MQ.Messages.PurchaseMsv
         public string Status { get; set; } = null!;
 
         public List<UpdatePurchaseDetail> ListUpdatePurchaseDetails { get; set; } = new List<UpdatePurchaseDetail>();
-        public List<UpdateOldPurchaseDetail> ListOldUpdatePurchaseDetails { get; set; } = new List<UpdateOldPurchaseDetail>();
     }
     public class UpdatePurchaseDetail
-    {
-        public Guid Id { get; set; }
-
-        public Guid PurchaseId { get; set; }
-
-        public Guid ProductId { get; set; }
-
-        public int Quantity { get; set; }
-
-        public decimal UnitPrice { get; set; }
-
-        public decimal? TotalPrice { get; set; }
-    }
-    public class UpdateOldPurchaseDetail
     {
         public Guid Id { get; set; }
 
