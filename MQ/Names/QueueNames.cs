@@ -21,6 +21,10 @@ namespace MessageMQCommon.MQ.Names
             public static readonly string PurchaseCreatedQueue = "purchase-created-queue";
             public static readonly string PurchaseCreatedResultQueue = "purchase-created-result-queue";
             public static readonly string UpdatePurchaseQueue = "update-purchase-queue";
-        }   
+        }
+        public static class  DeliveryQueue
+        {
+            public static readonly string DeliveryRequestDataCustomerQueue = "delivery-request-data-customer-queue";    
+        }
     }
 }
